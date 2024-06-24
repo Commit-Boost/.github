@@ -1,5 +1,5 @@
 # Commit-Boost
-### Note
+
 **THE CODE IN THIS REPOSITORY IS CURRENTLY NOT AUDITED OR READY FOR PRODUCTION**
 
 ## What Is Commit-Boost:
