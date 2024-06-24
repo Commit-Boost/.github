@@ -6,7 +6,7 @@
 
 Commit-Boost is an open-source public good that acts as a validator platform to enable safe commitments. Specifically, Commit-Boost is a new Ethereum validator sidecar focused on standardizing the last mile of communication between validators and third parties. It has been designed with modularity at its core, with the goal of supporting a broad range of different use cases and protocols. We plan to develop and then sustain this software to limit fragmentation, reduce complexity for core devs, and decrease risks for proposers making commitments–but, still allow for open innovation / not limiting designs developed by proposer commitment protocols
 
-More details on the design can be found in this (presentation)[ https://docs.google.com/presentation/d/1T06pPKcKkU-EdfYkAtXUYQxjfHXkkFBIVRDyWyiEFVs/edit#slide=id.g2731bc99d1b_0_74], however the high-level schematic is below. We will also be publishing / presenting more detailed specs shortly. 
+More details on the design can be found in this [presentation] (https://docs.google.com/presentation/d/1T06pPKcKkU-EdfYkAtXUYQxjfHXkkFBIVRDyWyiEFVs/edit#slide=id.g2731bc99d1b_0_74), however the high-level schematic is below. We will also be publishing / presenting more detailed specs shortly. 
 
 ![Commit-Boost](https://github.com/Commit-Boost/.github/assets/150300937/1f4d32b1-718f-40b8-bff1-99ffd1b34812)
 
