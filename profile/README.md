@@ -40,6 +40,7 @@ Commit-Boost is an effort design to help mitigate some of these risks.
 - First presentation to the community can be found [here](https://www.youtube.com/watch?v=jrm4ZUoj9xY&list=PLJqWcTqh_zKHDFarAcF29QfdMlUpReZrR&index=11)
 - Second presentation at zuBerlin can be found [here](https://streameth.org/zuberlin/watch?session=66681afef9b8e98b1ec95fdd)
 - zuBerlin Devnet notion can be found [here](https://twisty-wednesday-4be.notion.site/ZuBerlin-Preconfs-Devnet-b693047f41e7407cadac0170a6711dea)
+- Mev-Boost Community call [here](https://www.youtube.com/watch?v=UgoFjNkkTac)
 
 ## Governance Roadmap (to be updated):
 
