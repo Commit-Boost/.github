@@ -42,9 +42,20 @@ Commit-Boost is an effort design to help mitigate some of these risks.
 - zuBerlin Devnet notion can be found [here](https://twisty-wednesday-4be.notion.site/ZuBerlin-Preconfs-Devnet-b693047f41e7407cadac0170a6711dea)
 - Mev-Boost Community call [here](https://www.youtube.com/watch?v=UgoFjNkkTac)
 
-## Governance Roadmap (to be updated):
+## Governance Roadmap:
+- Set-up similar to a client team, but not-for-profit entity with no VC backing or plans to sell / start side businesses for monetization
+- Multiple person team: Multiple devs that focus on transparency, sustainment / development, and research
+  - Transparency: Open source repo and governance calls (see next slides) 
+  - Sustainment / Development: 24/7 follow-the-sun coverage and highly engaged with client teams around upgrades / early in getting testnet support
+  - Research: Helping with open source research across Ethereum  
+- Governance: Will run a Commit-Boost, ACDC-like call on a frequent basis to engage with stakeholders and drive consensus on upgrades / help coordinate around hard forks
+- Funding: All grants / non-VC backed
 
 ## Contributions (to be updated):
 
 ## Grants (to be updated):
-
+Initial grant applications:
+- Ethereum Foundation
+- PBS Foundation
+- LidoDAO
+- EigenLayer
