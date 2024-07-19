@@ -4,21 +4,21 @@
 
 ## What Is Commit-Boost:
 
-Commit-Boost is an open-source public good that acts as a validator platform to enable safe commitments. Specifically, Commit-Boost is a new Ethereum validator sidecar focused on standardizing the last mile of communication between validators and third parties. It has been designed with modularity at its core, with the goal of supporting a broad range of different use cases and protocols. We plan to develop and then sustain this software to limit fragmentation, reduce complexity for core devs, and decrease risks for proposers making commitments–but, still allow for open innovation / not limiting designs developed by proposer commitment protocols
-
-More details on the design can be found in this [presentation](https://docs.google.com/presentation/d/1T06pPKcKkU-EdfYkAtXUYQxjfHXkkFBIVRDyWyiEFVs/edit#slide=id.g2731bc99d1b_0_74), however the high-level schematic is below. We will also be publishing / presenting more detailed specs shortly. 
-
-![Commit-Boost](https://github.com/Commit-Boost/.github/assets/150300937/1f4d32b1-718f-40b8-bff1-99ffd1b34812)
+Commit-Boost is an open-source public good that is fully compatible with MEV-Boost, but acts as a light-weight validator platform to safely make commitments. Specifically, Commit-Boost is a new Ethereum validator sidecar focused on standardizing the last mile of communication between validators and third-party protocols. It's being developed in Rust from scratch, and has been designed with safety and modularity at its core, with the goal of not limiting the market downstream including stakeholders, flows, proposer commitments, enforcement mechanisms, etc.
 
 ## Why Build Commit-Boost: 
 
-On the surface all the efforts around proposer commitments are a massive unlock for Ethereum, however, most are starting to agree on a common denominator: in the future, beacon proposers will be face a broader set of options of what they may “commit" to–be it ILs or preconfs or other types of commitments–compared to just an external or local payload they see today. Due to this we see a few risks developing that Commit-Boost is trying to mitigate:
--	Fragmentation: Multiple software and standards develop and compromise the security integrity of the entire Ethereum network
--	Development Complexity: Exponentially inflate the burden on core developers tasked with executing / testing major network upgrades
--	Transparency: Limited Transparency around bugs and taking quick actions may be challenging
-
-Commit-Boost is an effort design to help mitigate some of these risks. 
-
+- Proposer commitments have been an important part of Ethereum’s history. Today, we already see the power of commitments where over 90% of validators give up their autonomy and make a wholesale commitment that outsources block building to a sophisticated actor called a block builder 
+- However, most are starting to agree on a common denominator: in the future, beacon proposers will face a broader set of options of what they may “commit" to–be it inclusions lists or preconfs or other types of commitments such as long-dated blockspace futures–compared to just an external or local payload they see today
+- A recent post from Barnabe captures this well; during block construction, the validator “…creates the specs, or the template, by which the resulting block must be created, and the builders engaged by the proposer are tasked with delivering the block according to its specifications”
+While this all seems great, the challenge is that many teams building commitments are creating new sidecars driving fragmentation and risks for Ethereum
+- For Ethereum, there are going to be significant challenges and increased risks during upgrades if there are a handful of sidecars that validators are running 
+- For validators, these risks potentially take us to a world where proposers will need to make decisions on which teams to “bet on” and which sidecars they will need to run to participate in what those teams are offering
+- For homestakers, this is difficult and they likely will be unable to participate in more than one of these commitments
+- For sophisticated actors, this increases the attack vector and operational complexity as more and more sidecars are required to be run
+- Another side effect of this is validators are somewhat locked into using a specific sidecar due to limited operational capacity and the switching costs of running a different sidecar (i.e., vendor lock-in). The higher the switching costs, the more embedded network effects could become if these sidecars only support certain downstream actors / proposer commitment protocols 
+- This also could create a dynamic where core out-of-protocol infrastructure supporting Ethereum which should be a public good, starts being used for monetization, distribution, or other purposes
+- Due to these dynamics, various teams and individuals across the community are driving the development and testing of open-source / public good software called Commit-Boost. This effort includes researchers, validators, builders, relays, client teams, consulting firms, protocols building commitments, L2s, restaking platforms, and countless others across the community
 
 ## Core Principles:
 
@@ -42,20 +42,3 @@ Commit-Boost is an effort design to help mitigate some of these risks.
 - zuBerlin Devnet notion can be found [here](https://twisty-wednesday-4be.notion.site/ZuBerlin-Preconfs-Devnet-b693047f41e7407cadac0170a6711dea)
 - Mev-Boost Community call [here](https://www.youtube.com/watch?v=UgoFjNkkTac)
 
-## Governance Roadmap:
-- Set-up similar to a client team, but not-for-profit entity with no VC backing or plans to sell / start side businesses for monetization
-- Multiple person team: Multiple devs that focus on transparency, sustainment / development, and research
-  - Transparency: Open source repo and governance calls (see next slides) 
-  - Sustainment / Development: 24/7 follow-the-sun coverage and highly engaged with client teams around upgrades / early in getting testnet support
-  - Research: Helping with open source research across Ethereum  
-- Governance: Will run a Commit-Boost, ACDC-like call on a frequent basis to engage with stakeholders and drive consensus on upgrades / help coordinate around hard forks
-- Funding: All grants / non-VC backed
-
-## Contributions (to be updated):
-
-## Grants (to be updated):
-Initial grant applications:
-- Ethereum Foundation
-- PBS Foundation
-- LidoDAO
-- EigenLayer
