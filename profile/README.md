@@ -4,7 +4,7 @@
 
 ## What Is Commit-Boost:
 
-Commit-Boost is an open-source public good that is fully compatible with MEV-Boost, but acts as a light-weight validator platform to safely make commitments. Specifically, Commit-Boost is a new Ethereum validator sidecar focused on standardizing the last mile of communication between validators and third-party protocols. It's being developed in Rust from scratch, and has been designed with safety and modularity at its core, with the goal of not limiting the market downstream including stakeholders, flows, proposer commitments, enforcement mechanisms, etc.
+Due to the risks developing for Ethereum, core development, and its validators set, a group of teams / individuals are working on developing a public good called Commit-Boost. Commit-Boost is an open-source public good that is fully compatible with MEV-Boost, but acts as a light-weight validator platform to safely make commitments. Specifically, Commit-Boost is a new Ethereum validator sidecar focused on standardizing the last mile of communication between validators and third-party protocols. It's being developed in Rust from scratch, and has been designed with safety and modularity at its core, with the goal of not limiting the market downstream including stakeholders, flows, proposer commitments, enforcement mechanisms, etc.
 
 ## Why Build Commit-Boost: 
 
@@ -29,16 +29,19 @@ While this all seems great, the challenge is that many teams building commitment
 -	Unified: Validators run one core side car to opt into many different commitments 
 -	Safety: Community reviews / audits, modularized, increased transparency–the focus is to reduce risk / overhead for the proposer to manage commitments
 
-
 ## How to Contribute:
 
--	We are just getting started, but there already are many ways to contribute. Please reach out to us on [Twitter]( https://x.com/Commit_Boost)
+-	Submit PRs or reach out to us on [Twitter]( https://x.com/Commit_Boost)
 
-## Resources (this will be continuously updated):
+## Resources:
 
+- EILI5, read more [here](https://twisty-wednesday-4be.notion.site/Commit-Boost-Reducing-Risks-and-Returning-Autonomy-Over-the-Block-Back-to-Ethereum-s-Validators-0f309f76058e447388381c60550ce67b)
 - Orginally proposed on ETH Research, read more [here](https://ethresear.ch/t/based-proposer-commitments-ethereum-s-marketplace-for-proposer-commitments/19517)
+- Second post on ETH Research, read more [here](https://ethresear.ch/t/commit-boost-proposer-platform-to-safely-make-commitments/20107)
 - First presentation to the community can be found [here](https://www.youtube.com/watch?v=jrm4ZUoj9xY&list=PLJqWcTqh_zKHDFarAcF29QfdMlUpReZrR&index=11)
 - Second presentation at zuBerlin can be found [here](https://streameth.org/zuberlin/watch?session=66681afef9b8e98b1ec95fdd)
 - zuBerlin Devnet notion can be found [here](https://twisty-wednesday-4be.notion.site/ZuBerlin-Preconfs-Devnet-b693047f41e7407cadac0170a6711dea)
 - Mev-Boost Community call [here](https://www.youtube.com/watch?v=UgoFjNkkTac)
+- ETH.CC Sequencing day, found [here](https://www.youtube.com/watch?v=HYA0F5xkvr8)
+- Expansion Podcast, found [here](https://www.youtube.com/watch?v=rAFFdqEAdj4)
 
