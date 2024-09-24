@@ -44,4 +44,6 @@ While this all seems great, the challenge is that many teams building commitment
 - Mev-Boost Community call [here](https://www.youtube.com/watch?v=UgoFjNkkTac)
 - ETH.CC Sequencing day, found [here](https://www.youtube.com/watch?v=HYA0F5xkvr8)
 - Expansion Podcast, found [here](https://www.youtube.com/watch?v=rAFFdqEAdj4)
+- Infinite Jungle Podcast, found [here](https://www.youtube.com/watch?v=aJlNXc7LSh4)
+- Commit-Boost [ChatGPT](https://x.com/Commit_Boost/status/1824521241748967471) created by [RayLin](https://x.com/RayLin0803)
 
