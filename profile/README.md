@@ -46,4 +46,6 @@ While this all seems great, the challenge is that many teams building commitment
 - Expansion Podcast, found [here](https://www.youtube.com/watch?v=rAFFdqEAdj4)
 - Infinite Jungle Podcast, found [here](https://www.youtube.com/watch?v=aJlNXc7LSh4)
 - Commit-Boost [ChatGPT](https://x.com/Commit_Boost/status/1824521241748967471) created by [RayLin](https://x.com/RayLin0803)
+- ETH Staker Community [call](https://www.youtube.com/live/Po66JAzZBqo?t=286s)
+
 
